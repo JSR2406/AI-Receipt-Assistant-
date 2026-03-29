@@ -1,0 +1,3 @@
+Vercel CLI 47.1.4
+Retrieving project…
+> No Environment Variables found for invicis-projects/ai-receipt-assistant [269ms]

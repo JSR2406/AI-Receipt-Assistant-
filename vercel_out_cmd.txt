@@ -1,0 +1,11 @@
+Vercel CLI 47.1.4
+Retrieving project…
+The `name` property in vercel.json is deprecated (https://vercel.link/name-prop)
+Deploying invicis-projects/ai-receipt-assistant
+Uploading [--------------------] (0.0B/169B)
+Uploading [====================] (169.0B/169B)
+Inspect: https://vercel.com/invicis-projects/ai-receipt-assistant/mnB1z4x4VxbHzu446WjDYa3Gzxcg [2s]
+Production: https://ai-receipt-assistant-5zwjjmwq4-invicis-projects.vercel.app [2s]
+https://ai-receipt-assistant-5zwjjmwq4-invicis-projects.vercel.appBuilding
+Building
+Completing

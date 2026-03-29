@@ -1,0 +1,4 @@
+Vercel CLI 47.1.4
+Retrieving project…
+Saving
+Added Environment Variable TEABLE_APP_TOKEN to Project ai-receipt-assistant [313ms]

@@ -1,4 +1,5 @@
 import { generateObject } from "ai"
+import { openai } from "@ai-sdk/openai"
 import { z } from "zod"
 
 const invoiceSchema = z.object({
@@ -26,7 +27,7 @@ export async function POST(request: Request) {
     const mimeType = file.type || "image/jpeg"
 
     const { object } = await generateObject({
-      model: "openai/gpt-4o",
+      model: openai("gpt-4o"),
       schema: invoiceSchema,
       messages: [
         {
