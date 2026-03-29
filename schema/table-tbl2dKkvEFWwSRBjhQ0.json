@@ -1,0 +1,143 @@
+{
+  "id": "tbl2dKkvEFWwSRBjhQ0",
+  "name": "Receipt database",
+  "description": null,
+  "dbTableName": "\"bsePH2l9XDPenJU6LVu\".\"Fa_Piao_Guan_Li\"",
+  "fields": [
+    {
+      "id": "fldBZnmCsp0ccOtB44w",
+      "name": "Type",
+      "dbFieldName": "Fa_Piao_Lei_Xing",
+      "type": "singleSelect",
+      "description": null,
+      "options": [
+        "Service Fee",
+        "Catering",
+        "Procurement",
+        "Others",
+        "IT Services",
+        "Fuel"
+      ],
+      "cellValueType": "string",
+      "isLookup": null,
+      "isComputed": null,
+      "isMultipleCellValue": null
+    },
+    {
+      "id": "fldgdGX6LXWzoAObDWu",
+      "name": "Invoice Number",
+      "dbFieldName": "Fa_Piao_Bian_Hao",
+      "type": "singleLineText",
+      "description": null,
+      "options": {},
+      "cellValueType": "string",
+      "isLookup": null,
+      "isComputed": null,
+      "isMultipleCellValue": null
+    },
+    {
+      "id": "fld3ILlSKdDAu7X5x5e",
+      "name": "Invoice Date",
+      "dbFieldName": "Fa_Piao_Ri_Qi",
+      "type": "date",
+      "description": null,
+      "options": {
+        "formatting": {
+          "date": "YYYY-MM-DD",
+          "time": "HH:mm",
+          "timeZone": "Asia/Shanghai"
+        }
+      },
+      "cellValueType": "dateTime",
+      "isLookup": null,
+      "isComputed": null,
+      "isMultipleCellValue": null
+    },
+    {
+      "id": "fld3mkbc5UM9hKoRH8p",
+      "name": "Status",
+      "dbFieldName": "Zhuang_Tai",
+      "type": "singleSelect",
+      "description": null,
+      "options": [
+        "Pending",
+        "Reviewed",
+        "Paid"
+      ],
+      "cellValueType": "string",
+      "isLookup": null,
+      "isComputed": null,
+      "isMultipleCellValue": null
+    },
+    {
+      "id": "fldmG6AXnH3obpNWW82",
+      "name": "Supplier",
+      "dbFieldName": "Gong_Ying_Shang",
+      "type": "singleLineText",
+      "description": null,
+      "options": {},
+      "cellValueType": "string",
+      "isLookup": null,
+      "isComputed": null,
+      "isMultipleCellValue": null
+    },
+    {
+      "id": "fld5OKngSbxd6dOGToA",
+      "name": "Amount",
+      "dbFieldName": "Jin_E",
+      "type": "number",
+      "description": null,
+      "options": {
+        "formatting": {
+          "precision": 2,
+          "type": "currency",
+          "symbol": "USD"
+        }
+      },
+      "cellValueType": "number",
+      "isLookup": null,
+      "isComputed": null,
+      "isMultipleCellValue": null
+    },
+    {
+      "id": "fldlcGJKaY2AAd1lMzt",
+      "name": "Currency",
+      "dbFieldName": "Bi_Zhong",
+      "type": "singleSelect",
+      "description": null,
+      "options": [
+        "USD",
+        "CNY",
+        "EUR"
+      ],
+      "cellValueType": "string",
+      "isLookup": null,
+      "isComputed": null,
+      "isMultipleCellValue": null
+    },
+    {
+      "id": "fld9laYmJNLaUECsiV8",
+      "name": "Notes",
+      "dbFieldName": "Bei_Zhu",
+      "type": "longText",
+      "description": null,
+      "options": {},
+      "cellValueType": "string",
+      "isLookup": null,
+      "isComputed": null,
+      "isMultipleCellValue": null
+    },
+    {
+      "id": "fldNsWUah1T3bJvO93Y",
+      "name": "Receipt File",
+      "dbFieldName": "Fa_Piao_Wen_Jian",
+      "type": "attachment",
+      "description": null,
+      "options": {},
+      "cellValueType": "string",
+      "isLookup": null,
+      "isComputed": null,
+      "isMultipleCellValue": true
+    }
+  ]
+}

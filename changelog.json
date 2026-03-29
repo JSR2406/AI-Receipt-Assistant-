@@ -1,0 +1,14 @@
+{
+  "name": "AI Receipt Assistant",
+  "description": "AI-powered receipt and invoice recognition app with photo upload, auto-recognition, and database storage",
+  "logs": [
+    "Created invoice recognition app with photo/batch upload, AI recognition, edit form, and monthly grouped history display",
+    "Fixed broken thumbnail images with fallback handling and translated all UI text to English",
+    "Added inline editing below selected invoice card and image lightbox for thumbnail zoom",
+    "Changed invoice history from grid to row-based list layout with inline preview below selected row",
+    "Added click-to-preview for images in expanded details form and PDF file preview support",
+    "Changed PDF preview to use Google Docs Viewer by default to avoid download popups",
+    "Added batch upload with progress bar and expandable confirmation for each file",
+    "Removed share feature, renamed app to AI Receipt Assistant, updated button text and description"
+  ]
+}
